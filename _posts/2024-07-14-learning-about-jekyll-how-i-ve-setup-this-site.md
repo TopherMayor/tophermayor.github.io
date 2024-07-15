@@ -9,10 +9,10 @@ tags: [chirpy, github, documentation]
 DOCUMENTATION UNDER DEVELOPMENT
 
 ## Resources
-* https://github.com/cotes2020/chirpy-starter
-* https://chirpy.cotes.page/
-* https://github.com/jekyll/jekyll-compose
-* https://techno-tim.github.io/
+* [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)
+* [https://chirpy.cotes.page/](https://chirpy.cotes.page/)
+* [https://github.com/jekyll/jekyll-compose](https://github.com/jekyll/jekyll-compose)
+* [https://techno-tim.github.io/](https://techno-tim.github.io/)
 ## Configuration
  
 All the initial value changes made to ```/path/to/_config.yml```
