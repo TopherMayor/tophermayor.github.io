@@ -2,7 +2,7 @@
 layout: post
 title: 'Learning about Jekyll: How I''ve Setup This Site'
 date: 2024-07-14 18:09 -0700
-categories: [LOG, JULY]
+categories: [Log, July]
 tags: [chirpy, github, documentation]
 ---
 
