@@ -53,7 +53,10 @@ ExecStart=/usr/bin/bash -c 'echo device_specific > /sys/bus/pci/devices/0000:0c:
 [Install]
 WantedBy=multi-user.target
 ```
-
+Once created run the following to enable to service:
+```shell
+systemctl enable vrwa
+```
 ***
 ## Resources
 
