@@ -10,17 +10,18 @@ tags: [proxmox, github, documentation, hookscripts, virtual machines, homelab]
 
 
 ## Setup
+
 Bootloader: Grub\
 Graphics Card: AMD Radeon 5700xt 
 
 ## Working Configuration
 
-```/etc/default/grub``` 
+Edit/create grub file located at ```/etc/default/grub``` 
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet amd_iommu=on iommu=pt nomodeset pcie_acs_override=downstream initcall_blacklist=sysfb_init"
 ``` 
 
-```/etc/modules```
+Edit/create modules file located at ```/etc/modules```
 ```
 vendor-reset
 vfio
@@ -29,13 +30,17 @@ vfio_pci
 vfio_virqfd
 ```
 
-```/etc/modprobe.d/vfio.conf```
+Edit/create vfio.conf file located at ```/etc/modprobe.d/vfio.conf```
+
 ```
 options vfio-pci ids=1002:731f,1002:ab38 disable_vga=1
 ```
 
 Created a service to set the reset_method using method shown [here](https://github.com/gnif/vendor-reset/issues/46)
-``` /lib/systemd/system/vrwa.service```
+
+
+Edit/create vrwa service file located at ``` /lib/systemd/system/vrwa.service```
+
 ```
 [Unit]
 Description=vrwa Service
@@ -47,10 +52,14 @@ ExecStart=/usr/bin/bash -c 'echo device_specific > /sys/bus/pci/devices/0000:0c:
 [Install]
 WantedBy=multi-user.target
 ```
-Once created run the following to enable to service:
-```shell
+
+Once created run the following command to enable to service:
+ 
+```
 systemctl enable vrwa
 ```
+
+
 ***
 ## Resources
 
