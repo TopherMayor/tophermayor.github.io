@@ -16,8 +16,8 @@ Graphics Card: AMD Radeon 5700xt
 ```/etc/default/grub``` 
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet amd_iommu=on iommu=pt pcie_acs_override=downstream,multifunction nofb nomodeset video=vesafb:off,efifb:off"
-``` -->
-<!-- ## Issues -->
+```
+## Issues -->
 
 ## Working Configuration
 
