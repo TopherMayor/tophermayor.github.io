@@ -12,12 +12,6 @@ tags: [proxmox, github, documentation, hookscripts, virtual machines, homelab]
 ## Setup
 Bootloader: Grub\
 Graphics Card: AMD Radeon 5700xt 
-<!-- ## Attempts
-```/etc/default/grub``` 
-```
-GRUB_CMDLINE_LINUX_DEFAULT="quiet amd_iommu=on iommu=pt pcie_acs_override=downstream,multifunction nofb nomodeset video=vesafb:off,efifb:off"
-```
-## Issues -->
 
 ## Working Configuration
 
