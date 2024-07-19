@@ -54,13 +54,9 @@ systemctl enable vrwa
 ***
 ## Resources
 
-* https://pve.proxmox.com/wiki/PCI_Passthrough
-* https://forum.proxmox.com/threads/amd-gpu-inaccessible-after-vm-poweroff-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible.130975/#post-633195
-* https://github.com/gnif/vendor-reset
-* https://forum.proxmox.com/threads/problem-with-gpu-passthrough.55918/page-2#post-478351
-* https://github.com/gnif/vendor-reset/issues/46
-* https://forum.proxmox.com/threads/gpu-passthrough-issues-after-upgrade-to-7-2.109051/
-* https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/
-* https://drive.google.com/file/d/1rPTKi_b7EFqKTMylH64b3Dg9W0N_XIhO/view
-* https://www.youtube.com/watch?v=_hOBAGKLQkI
-* https://techno-tim.github.io/posts/gpu-passthrough/
+* [https://pve.proxmox.com/wiki/PCI_Passthrough](https://pve.proxmox.com/wiki/PCI_Passthrough)
+* [https://forum.proxmox.com/threads/amd-gpu-inaccessible-after-vm-poweroff-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible.130975/#post-633195](https://forum.proxmox.com/threads/amd-gpu-inaccessible-after-vm-poweroff-unable-to-change-power-state-from-d3cold-to-d0-device-inaccessible.130975/#post-633195)
+* [https://github.com/gnif/vendor-reset](https://github.com/gnif/vendor-reset)
+* [https://forum.proxmox.com/threads/problem-with-gpu-passthrough.55918/page-2#post-478351](https://forum.proxmox.com/threads/problem-with-gpu-passthrough.55918/page-2#post-478351)
+* [https://forum.proxmox.com/threads/gpu-passthrough-issues-after-upgrade-to-7-2.109051/](https://forum.proxmox.com/threads/gpu-passthrough-issues-after-upgrade-to-7-2.109051/)
+* [https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/](https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/)
